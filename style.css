@@ -3,15 +3,12 @@ html {
   width: 100%;
 }
 
-<!-- New code -->
-
-body {
-    background: url('luke-chesser-IGtutkXikuc-unsplash 1.png');
+< !-- New code -->body {
+  background: url('luke-chesser-IGtutkXikuc-unsplash 1.png');
 }
 
-h1, .container {
-    text-align: center;
-    color: black;
+h1,
+.container {
+  text-align: center;
+  color: black;
 }
-<!-- New code -->
-

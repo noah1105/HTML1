@@ -1,30 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me</title>
-    <style>
-        body {
-            background: url('luke-chesser-IGtutkXikuc-unsplash 1.png');
-            text-align: center; 
-        }
 
-        h1, .contact-text {
-            color: black;
-        }
-    </style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <style>
+    body {
+      background: url('luke-chesser-IGtutkXikuc-unsplash 1.png');
+      text-align: center;
+    }
+
+    h1,
+    .contact-text {
+      color: black;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      background-color: transparent;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    button {
+      width: 200px;
+      height: 100px;
+      background-color: transparent;
+      border: 2px solid #8E4CFD;
+      border-radius: 10px;
+      color: #8E4CFD;
+      font-size: 16px;
+      padding: 10px;
+      margin: 10px;
+      background: #271349;
+    }
+  </style>
 </head>
+
 <body>
 
-<h1>Contact Me</h1>
+  <h1>Projects I made</h1>
 
-<div class="My Projects">
- 
+  <div class="My Projects">
+    <div class="grid-container">
+      <button
+        onclick="window.location.href='https://e37fd5c1-7a3d-435c-a61a-56e8c2f7cef7-00-1gc8il1z0ygnm.picard.replit.dev'">This
+        is my site about snowboarding</button>
+      <button onclick="window.location.href='https://749d45-3000.csb.app/'">This site lets you log in and upload
+        photos</button>
+      <button onclick="window.location.href='https://example.com'">Button 3</button>
+      <button onclick="window.location.href='https://example.com'">Button 4</button>
+      <button onclick="window.location.href='https://example.com'">Button 5</button>
+      <button onclick="window.location.href='https://example.com'">Button 6</button>
+    </div>
+  </div>
+</body>
 
-  
-  <div class="grid-container">
-  <button style="width: 200px; height: 100px;" onclick="window.location.href='https://e37fd5c1-7a3d-435c-a61a-56e8c2f7cef7-00-1gc8il1z0ygnm.picard.replit.dev'">In Progress</button>
-  <button style="width: 200px; height: 100px;" onclick="window.location.href='index.html'">Home</button>
-  <button style="width: 200px; height: 100px;" onclick="window.location.href='Contactme.html'">Contact Me</button>
-</div>
+</html>

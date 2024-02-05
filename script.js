@@ -1,9 +1,12 @@
 .image-container img,
-.image-container a {  /* Style both images and links within the container */
+.image-container a {  
   width: 250px;
   height: 100px;
   margin: 10px;
-  display: block;  /* Ensure links are block-level */
-  text-align: center;  /* Center link text, if desired */
-  box-sizing: border-box;  /* Include padding and borders in dimensions */
+  display: block;  
+  text-align: center; 
+  box-sizing: border-box;  
 }
+
+
+
