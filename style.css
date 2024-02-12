@@ -1,14 +1,19 @@
-html {
-  height: 100%;
-  width: 100%;
-}
+  html {
+    height: 100%;
+    width: 100%;
+  }
 
-< !-- New code -->body {
-  background: url('luke-chesser-IGtutkXikuc-unsplash 1.png');
-}
+  body {
+    background: url('luke-chesser-IGtutkXikuc-unsplash 1.png');
+    color: white;
+    font-family: Arial, sans-serif;
+  }
 
-h1,
-.container {
-  text-align: center;
-  color: black;
-}
+  h1,
+  .container {
+    text-align: center;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    width: 80%;
+  }
