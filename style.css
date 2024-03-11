@@ -1,3 +1,5 @@
+
+
 < !DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Contact Me</title>< !-- Linking the external CSS file --><link rel="stylesheet" type="text/css" href="Projectpage.css"></head><body><div class="projects-heading">Projects I made</div><div class="My Projects"><div class="grid-container">< !-- Buttons content here --></div></div><div class="footer">&copy;
 
 Noah's Site 2024
@@ -45,6 +47,43 @@ h1,
   }
 }
 
-</style></head><body><div class="container"><h1>Welcome to My Webpage</h1><p>This is some content.</p></div></body></html>
 
+/* Add a comment here */
 
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+}
+
+.slides {
+  display: block;
+}
+
+.slide {
+  display: none;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
