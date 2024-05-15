@@ -1,5 +1,3 @@
-
-
 < !DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Contact Me</title>< !-- Linking the external CSS file --><link rel="stylesheet" type="text/css" href="Projectpage.css"></head><body><div class="projects-heading">Projects I made</div><div class="My Projects"><div class="grid-container">< !-- Buttons content here --></div></div><div class="footer">&copy;
 
 Noah's Site 2024
@@ -86,4 +84,12 @@ html {
 
 .next {
   right: 0;
+}
+
+/* This is a single-line comment */
+
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
